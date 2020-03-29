@@ -1,12 +1,14 @@
 // import React, { useState } from 'react';
 import React, { useState } from 'react';
 import Header from './Header';
-import Logon from './pages/Logon/index';
+
+import Routes from './routes';
+
 import './global.css';
 
 function App() {
   return (
-    <Logon />
+    <Routes />
   );
 }
 
